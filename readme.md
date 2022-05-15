@@ -1,6 +1,6 @@
 ## Pruned YOLOv5 Mask Detection Model In 425KB
 
-基线模型为YOLOv5n，使用[GD剪枝算法](https://arxiv.org/abs/1909.08174)移除了模型87.5%的参数，并保持较好的检测效果（mAP@.5=0.912），数据集来自AIZOO和RMFD，规模大约一万张图片。
+本项目通过剪枝算法，来获得一个体积极小，推理快速的口罩佩戴的检测模型。基线模型为YOLOv5n，使用[GD剪枝算法](https://arxiv.org/abs/1909.08174)移除了模型87.5%的参数，并保持较好的检测效果（mAP@.5=0.912），数据集来自AIZOO和RMFD，规模大约一万张图片。
 
 模型参数保存到ckps目录下，提供pytorch / onnx / ncnn格式
 
