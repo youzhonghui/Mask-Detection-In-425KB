@@ -1,0 +1,1 @@
+## Pruned YOLOv5 Mask Detection Model in 425KB
